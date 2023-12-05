@@ -1,18 +1,16 @@
-import React from "react";
+import { useState } from 'react';
+import './index.css';
 import { Header } from "./componentes/Header/Index";
 import 'boxicons';
 import { BrowserRouter as Router } from "react-router-dom";
-import { Paginas } from "./src/componentes/Paginas.js";
+import { Pagina } from "./componentes/Pagina/Pagina";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Paginas/>
-        </Router>
-    </div>
-  );
+   <Router>
+    <Header />
+    <Pagina/>
+   </Router>
+  )
 }
-
 export default App;

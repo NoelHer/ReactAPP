@@ -24,10 +24,10 @@ code {
 }
 
 
-/*-------------------------------HEARDER-------------------------------*/
+/*************Header*************/
 header{
   width: 97%;
-  min-height: 100px;
+  min-width: 100px;
   max-width: 1530px;
   overflow: hidden;
   display: flex;
@@ -36,17 +36,17 @@ header{
   flex-wrap: wrap;
   position: fixed;
   box-sizing: border-box;
-  background-color: wheat;
+  background-color: antiquewhite;
   box-shadow: 0 5px 10px #08a05c50;
 }
-
 a{
   color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
-a:hover{
+a.hover{
   color: #08a05c;
+
 }
 li{
   list-style: none;
@@ -65,28 +65,46 @@ header ul li a{
 header .cart{
   position: relative;
   cursor: pointer;
-}
-header.cart box-icon{
+}header .cart box-icon{
   width: 45px;
   height: 45px;
 }
 header .cart span{
   position: absolute;
-  top: -1.5rem;
+  top: -1rem;
   right: -1.5rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: beige;
   padding: 0rem;
   font-size: 1.5rem;
   font-weight: 700;
-  background-color: crimson;
+  background-color: red;
 }
+/*-----------------INICIO-------------------*/
+.inicio{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 9rem ;
+}
+.inicio h1{
+  font-size: 2.5rem;
+  color: #08a05c;
+}
+.inicio img{
+  width: 100%;
+}
+
 /*--------PRODUCTOS--------*/
+.title{
+  font-size: 2.4rem;
+  padding: 10rem 0 0 0;
+  color: #08a05c;
+}
 .title{
   font-size: 2rem;
   padding: 10rem 0 0 0;
@@ -172,9 +190,6 @@ width: 310px;
 }
 .buttom div a:hover{
   color: wheat;}
-
-
-
 
 
 /*-----MEDIA-----*/
